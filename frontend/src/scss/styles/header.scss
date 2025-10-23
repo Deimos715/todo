@@ -1,0 +1,13 @@
+.header {
+    border: 1px solid blue;
+    
+    a.inactive {
+        color: #000;
+        text-decoration: none;
+    }
+
+    a.active {
+        color: #000;
+        text-decoration: underline;
+    }
+}
