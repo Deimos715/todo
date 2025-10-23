@@ -28,8 +28,11 @@ INSTALLED_APPS = [
 
     # user apps
     'src.main.apps.MainConfig',
+    'src.todo.apps.TodoConfig',
+    'src.api.apps.ApiConfig',
 
     # Other apps
+    'rest_framework',
 
     # sitemaps
     'django.contrib.sites',
